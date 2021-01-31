@@ -59,5 +59,9 @@
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "codeTemplateTool.configFile": "template.json",
+  "codeTemplateTool.templatesPath": "./.vscode/templates",
+  "codeTemplateTool.variable.leftBoundary": "__",
+  "codeTemplateTool.variable.rightBoundary": "__"
 }
