@@ -1,6 +1,19 @@
-import { ExpoConfig, ConfigContext } from '@expo/config';
+import { ExpoConfig, ConfigContext } from "@expo/config";
+//inport config flags.
 
-export default ({ config }: ConfigContext): ExpoConfig => ({
-  ...config,
-  name: 'My App',
-});
+const configure = ({ config }: ConfigContext): ExpoConfig => {
+
+	console.log(config);
+	return {
+		...config,
+		name: "My App",
+		slug: "MySlug",
+		extra: {
+			flags: {
+
+			},
+		},
+	};
+};
+
+export default configure;

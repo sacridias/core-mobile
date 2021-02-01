@@ -63,5 +63,7 @@
   "codeTemplateTool.configFile": "template.json",
   "codeTemplateTool.templatesPath": "./.vscode/templates",
   "codeTemplateTool.variable.leftBoundary": "__",
-  "codeTemplateTool.variable.rightBoundary": "__"
+  "codeTemplateTool.variable.rightBoundary": "__",
+  "editor.insertSpaces": false,
+  "editor.tabCompletion": "on"
 }
